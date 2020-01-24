@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    overflow-x: hidden;
+    background-color: rgb(9, 4, 29);
+
+    
+}
+
+
+#firstContainer{
+    max-width: 100%;
+    height: 5vh;
+    background-color: rgb(9, 4, 29);
+    border-bottom: 3px solid rgb(253, 108, 83);
+}
+
+#contianer button{
+    color: white;
+}
+
+#contianer{
+    background-color: rgb(9, 4, 29);
+    color: white;
+}
+
+#cartbutton{
+    background-color: rgb(253, 108, 83);
+    color: white;
+    font-family: sans-serif;
+    border-radius: 8px solid rgb(253, 108, 83);
+}
+
+#drop{
+    background-color: tomato;
+    color: white;
+}
+
+#drop li a{
+    color: white;
+}
+
+#drop2{
+    background-color: tomato;
+    color: white;
+}
+
+#drop2 li a{
+    color: white;
+}
+
+#clock div{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+
+}
+ 
+#clock{
+    justify-content: center;
+}
+
+#cdiv{
+    width: 100%;
+    height: 50vh;
+    background-color: brown;
+}
+
+#imageslide{
+    height: 30vh;
+}
+
+/* .uk-nav-divider{
+    color: tomato;
+} */
+
+#divide{
+    background-color: tomato ;
+}
+
+#flexx{
+    display:flex;
+    margin-top: 20px;
+    background-color: rgb(25, 21, 41);
+}
+
+#animatee{
+    margin-left: 40px;
+}
+#card1{
+    background-image: url(images/app1.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: whitesmoke;
+}
+
+#card2{
+    background-image: url(images/unit2.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#card3{
+    background-image: url(images/app9.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: grey;
+}
+#card4{
+    background-image: url(images/black2.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(233, 124, 105);
+    background-color: black;
+}
+#firstCards div{
+    height: 200px;
+    
+}
+
+.tm-product-card-add button{
+    background-color: rgb(253, 108, 83);
+    margin-left: 30px;
+}
+
+
+#secsub{
+    background-color:  rgb(9, 4, 29);
+}
+
+/* .uk-text-center{
+    background-color:  rgb(9, 4, 29);
+} */
+
+.uk-text-center{
+    color: white;
+}
+
+.tm-product-card-labels{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+#ct{
+    background-color: tomato;
+}
+
+#smallscreen{
+    display: none;
+}
+
+@media only screen and (max-width:480px){
+
+
+    #smallscreen{
+        display: inline-block;
+        
+    } 
+    body{
+        background-color: white;
+    }
+    
+    #inputt{
+        width: 70px;
+        /* margin-right: 100px;; */
+        display: none;
+    }
+
+    #contianer{
+     height: 10vh;
+     display: none;
+    }
+
+    #cate{
+        max-width: 20px;
+        font-size: 5px;
+        text-align: center;
+    }
+
+    #searchButton{
+        max-width: 20px;
+    }
+
+    #myAccount{
+        max-width: 20px;
+    }
+
+    #animatee{
+        max-width: 120px;
+        float: left;
+    }
+
+    #flexx{
+        background-color: white;
+    }
+
+    #firstCards div{
+        height: 20px;
+        width: 10px;
+        
+        
+    }
+
+    #card1{
+       width: 20px;
+       height: 10px;
+       /* float: left; */
+    }
+
+    #card2{
+        width: 20px;
+        height: 10px;
+        /* float: left; */
+     }
+     #card3{
+        width: 20px;
+        height: 10px;
+        /* float: left; */
+     }
+     #card4{
+        width: 20px;
+        height: 10px;
+        /* float: left; */
+     }
+
+     #firstContainer{
+         display: none;
+     }
+}
